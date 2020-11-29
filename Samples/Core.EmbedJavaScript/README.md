@@ -1,3 +1,17 @@
+---
+page_type: sample
+products:
+- office-sp
+languages:
+- javascript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 1/1/2016 12:00:00 AM
+  scenarios:
+  - Embed
+---
 # Core.EmbedJavaScript #
 
 ### Summary ###
@@ -27,7 +41,7 @@ Core.EmbedJavaScript | Vesa Juvonen, Bert Jansen, Frank Marasco (Microsoft)
 ### Version history ###
 Version  | Date | Comments
 ---------| -----| --------
-1.0  | May 22th 2014 | Initial release
+1.0  | May 22nd 2014 | Initial release
 
 ### Disclaimer ###
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

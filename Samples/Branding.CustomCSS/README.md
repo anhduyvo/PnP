@@ -1,4 +1,18 @@
+---
+page_type: sample
+products:
+- office-sp
+languages:
+- aspx
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 1/1/2016 12:00:00 AM
+---
 # CSS INJECTION PATTERN #
+
+> *Notice.* This solution **ONLY** works for "Classic" experience. For modern experiences, you should be looking into using [modern themes](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview).
 
 ### Summary ###
 shows how to inject custom CSS to the host web from add-in.

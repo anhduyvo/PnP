@@ -1,3 +1,17 @@
+---
+page_type: sample
+products:
+- office-sp
+languages:
+- aspx
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 1/1/2016 12:00:00 AM
+  scenarios:
+  - Connect
+---
 # USING APPINSTALLED EVENTS TO ATTACH EVENTS IN THE HOST WEB #
 
 ### Summary ###
@@ -18,7 +32,11 @@ Visit the video on Channel 9 - [http://channel9.msdn.com/Blogs/Office-365-Dev/Us
 -  Office 365 Dedicated (D)
 -  SharePoint 2013 on-premises
 
-*Sample has been tested and configured for Office 365 MT, but model works as such with other platforms as well. *
+*Sample has been tested and configured for Office 365 MT, but model works as such with other platforms as well.*
+
+>**Important**
+>As of January 2017 SharePoint Online does support list webhooks which you can use instead of "-ed" remote event receivers. Checkout [Overview of SharePoint webhooks](https://dev.office.com/sharepoint/docs/apis/webhooks/overview-sharepoint-webhooks) to learn more about webhooks. Also note that several webhook samples are available from the [sp-dev-samples](https://github.com/SharePoint/sp-dev-samples/tree/master/Samples) GitHub repository.
+
 ### Prerequisites ###
 
 ### Solution ###

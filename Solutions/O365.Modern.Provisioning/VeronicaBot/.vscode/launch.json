@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}\\app.js",
+            "cwd": "${workspaceFolder}",
+            "env":{
+                "MicrosoftAppId": "<-- MicrosoftAppId here -->",
+                "MicrosoftAppPassword": "<-- MicrosoftAppPassword here -->",
+                "AAD_CLIENT_ID": "<-- AAD_CLIENT_ID here -->",
+                "AAD_CLIENT_SECRET": "<-- AAD_CLIENT_SECRET here -->",
+                "TENANT": "<-- tenant -->.onmicrosoft.com",
+                "tokenEndpoint": "https://login.microsoftonline.com/<-- GUID here -->/oauth2/token",
+                "RESOURCE": "https://graph.microsoft.com",
+                "List_Id": "<-- List_Id here -->",
+                "AzureWebJobsStorage": "<-- AzureWebJobsStorage here -->"
+            }
+        }
+    ]
+}

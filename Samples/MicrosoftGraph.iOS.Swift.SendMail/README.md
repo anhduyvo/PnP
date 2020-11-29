@@ -1,3 +1,36 @@
+---
+page_type: sample
+products:
+- office-365
+- office-excel
+- office-planner
+- office-teams
+- office-outlook
+- office-onedrive
+- office-sp
+- office-onenote
+- ms-graph
+languages:
+- swift
+extensions:
+  contentType: samples
+  technologies:
+  - Microsoft Graph
+  services:
+  - Office 365
+  - Excel
+  - Planner
+  - Microsoft Teams
+  - Outlook
+  - OneDrive
+  - SharePoint
+  - OneNote
+  platforms:
+  - iOS
+  createdDate: 1/1/2016 12:00:00 AM
+  scenarios:
+  - Mobile
+---
 # Microsoft Graph SDK for iOS using Swift #
 
 ### Summary ###
@@ -6,8 +39,6 @@ If you haven’t heard, there is an easy way to call a great amount of Microsoft
 No longer will you need to keep track of different endpoints and separate tokens in your solutions – how great is that? This post is an introductory part of getting started with the Microsoft Graph. For changes in the Microsoft Graph, head to: <https://graph.microsoft.io/changelog>
 
 This sample showcases the Microsoft Graph SDK for iOS (<https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS>) in a simple iOS application using the new Swift language (<https://developer.apple.com/swift/>). In the application we will send ourselves a mail. The objective is to get familiar with the Microsoft Graph and its possibilities.
-
-![App UI in iPhone and email](http://simonjaeger.com/wp-content/uploads/2016/03/app.png)
 
 Be aware, the Microsoft Graph SDK for iOS is still in preview. Read more about the conditions at: https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS
 
